@@ -38,8 +38,8 @@ Use the following tips to ensure that your input images give the most accurate r
 * Image file size should be no larger than 3 MB.
 * Ensure that face in a selfie covers almost 70% of the image for better results.
 * Some faces might not be recognized because of technical challenges, such as:
-- Images with extreme lighting, for example, severe backlighting.
-- Obstructions that block one or both eyes.
+    - Images with extreme lighting, for example, severe backlighting.
+    - Obstructions that block one or both eyes.
 
 
 # Sample Code
