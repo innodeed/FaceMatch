@@ -97,18 +97,20 @@ selfie - jpeg, png
 ## Success Response: 
 In case of successful API call and face match operation, the response with following format will be sent:
 ```
-{
-    "statusCode" : 200,
-    "status" : "success",
-    "facematch" : {
-      "match" : <"yes"/"no">,
-      "score" : <0-100>
-      "need-to-review": <“yes"/"no">,
-    },
-    "liveness" : {
-      "spoof" : <"yes"/"no">
-    }
-}
+ {
+	"statusCode": 200,
+	"status": "success",
+	"facematch": 
+	{
+		"match": "<yes/no>",
+		"score": "<1-100>",
+		"review": "<yes/no>"
+	},
+	"liveness": 
+	{
+		"spoof ": "<yes/no>"
+	}
+  }
  ```
     
 ## Error Response:
