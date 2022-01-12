@@ -4,7 +4,7 @@
 This documentation describes the Face Match API v1.
 
 # Introduction
-FaceMatch API compares the image of two face images and determines if the images are of the 
+FaceMatch API compares two faces and determines if the images are of the 
 same person. It matches the face regardless of expression, facial hair and age.
 
 Table Of Contents
