@@ -95,7 +95,7 @@ selfie - jpeg, png
 
 # Response Structure
 
-## Success Response: In case of successful API call and face match operation, the response with following format will be sent:
+### Success Response: In case of successful API call and face match operation, the response with following format will be sent:
 ```
 {
     "statusCode" : "200",
