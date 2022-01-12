@@ -1,14 +1,6 @@
 # Face Match Rest API v1 - Documentation
 
-# Overview
-This documentation describes the Face Match API v1.
-
-# Introduction
-FaceMatch API compares two faces and determines if the images are of the 
-same person. It matches the face regardless of expression, facial hair and age.
-
 # Table Of Contents
-* Face Match API - Documentation
 * Overview
 * Introduction
 * Schema
@@ -18,6 +10,15 @@ same person. It matches the face regardless of expression, facial hair and age.
 * Sample Code
 * API Call Structure
 * Response Structure
+
+
+# Overview
+This documentation describes the Face Match API v1.
+
+# Introduction
+FaceMatch API compares two faces and determines if the images are of the 
+same person. It matches the face regardless of expression, facial hair and age.
+
 
 # Schema
 Currently, HTTP and HTTPS are supported. All data is received as JSON, and all image uploads are to be performed as form-data (POST request). It is recommended that HTTPS is used for all API calls. For HTTPS, only TLS v1.2 is supported to ensure better security.
