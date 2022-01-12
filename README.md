@@ -1,3 +1,4 @@
+# Face Match Rest API v1 - Documentation
 
 - [Table of Contents](#face-match-api-v1---documentation)
 	- [Overview](#overview)
@@ -11,7 +12,7 @@
 	- [Response Structure](#response-structure)
 	
 
-# Face Match Rest API v1 - Documentation
+
 
 # Overview
 This documentation describes the Face Match API v1.
