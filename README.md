@@ -98,7 +98,7 @@ selfie - jpeg, png
 In case of successful API call and face match operation, the response with following format will be sent:
 ```
 {
-    "statusCode" : "200",
+    "statusCode" : 200,
     "status" : "success",
     "facematch" : {
       "match" : <"yes"/"no">,
@@ -116,7 +116,7 @@ In case of successful API call and face match operation, the response with follo
 ### Face not detected in ‘Selfie’
 ```
 {
-    "statusCode": "400",
+    "statusCode": 400,
     "status": "failure",
     "message": "Face not detected in selfie"
 }
@@ -125,7 +125,7 @@ In case of successful API call and face match operation, the response with follo
 ### Face not detected in ‘Document ID’
 ```
 { 
-   "statusCode": "400",
+   "statusCode": 400,
    "status": "failure",
    "message": "Face not detected in document"
 }
@@ -134,7 +134,7 @@ In case of successful API call and face match operation, the response with follo
 ### Face not detected in both ‘Selfie’ and ‘Document ID’ 
 ```
 {
-    "statusCode": "400",
+    "statusCode": 400,
     "status": "failure",
     "message": "Face not detected"       
 }
@@ -143,7 +143,7 @@ In case of successful API call and face match operation, the response with follo
 ### Blur image detected in ‘Selfie’
 ```
 { 
-    "statusCode": "422",
+    "statusCode": 422,
     "status": "failure",
     "message": “Blur selfie”    
 }
@@ -152,7 +152,7 @@ In case of successful API call and face match operation, the response with follo
 ### In case of ‘missing/invalid’ API key
 ```
 { 
-    "statusCode": "401",
+    "statusCode": 401,
     "status": "failure",
     "message": “Access denied due to invalid key. Make sure you provide the right key”
 }
@@ -162,7 +162,7 @@ Server Errors We ensure high availability, but in case if they do, status code w
 Form parse error or bad form-data. If the following happens, please make sure the form data is correctly set.
  ``` 
   {
-     "statusCode": "500",
+     "statusCode": 500,
      "status": "failure",
      "message": "upload error"
   }
