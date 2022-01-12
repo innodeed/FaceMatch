@@ -1,15 +1,15 @@
 # Face Match Rest API v1 - Documentation
 
 # Table Of Contents
-* Overview
-* Introduction
-* Schema
-* Endpoint
-* Authentication
-* Media Types
-* Sample Code
-* API Call Structure
-* Response Structure
+    - [Overview](#overview)
+	- [Introduction](#introduction)
+	- [Schema](#schema)
+	- [Endpoint](#endpoint)
+	- [Authentication](#authentication)
+	- [Supported Media Types](#supported-media-types)
+	- [Sample Code](#sample-code)
+	- [API Call Structure](#api-call-structure)
+	- [Response Structure](#response-structure)
 
 
 # Overview
